@@ -4,6 +4,8 @@
         <title>HTML Cheat sheet</title>
     </head>
     <body>
+        <a href="blog.html">Go to blog</a>
+        <hr>
         <!--headings-->
         <h1>Heading One</h1>
         <h2>Heading Two</h2>
@@ -45,7 +47,7 @@
                 <tbody>
                     <td>Mbah Victor</td>
                     <td>victor@icloud.com</td>
-                   <td>19</td>
+                   <td>25</td>
                 <tr>   
                     <td>william Traversy</td>
                     <td>william@something.com</td>
@@ -68,22 +70,59 @@
         <form action="process.php" method="POST">
         <div>    
             <label>First Name:</label>
-            <input type="text" name="firstName">
+            <input type="text" name="firstName" value="Enter first name">
         </div>  
         <br>
         <div>
             <label>Last Name:</label>
-            <input type="text" name="lirstName"> 
+            <input type="text" name="lirstName" value="Enter last name"> 
         </div> 
         <br>
         <div>
             <label>Emial:</label>
-            <input type="email" name="email"> 
+            <input type="email" name="email" value="Enter email"> 
         </div>
         <br>
         <div>
             <label>Message:</label>
             <textarea name="Message"></textarea>
+        </div> 
+        <br>
+        <div>
+            <label>Gender:</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+           </select>
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="submit">
         </form>
+        <!--Button-->
+        <button>Click Me</button>
+
+        <br>
+        <!--image-->
+        <a href="images/sample.jpg">
+            <img src="images/sample.jpg" width="200">
+        </a>
+
+        <!--quotations-->
+        <blockquote cite="http://vicmedia.com">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus recusandae quam inventore magnam doloremque, quidem quaerat vel hic porro maiores voluptate id fugit commodi odit voluptatum aperiam nemo praesentium.</blockquote>
+        <p> The <abbr title="Word Wide Web">WWW</abbr> is awesome </p>
+        <p><cite>HTML crash course rewritten by:</cite> Victor Mbah .C.</p>
+
+        <div style="margin-top:100PX;"></div>
     </body>
 </html>
